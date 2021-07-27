@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;  
+    
+  }
+  
+  nav{
+    width:24%;
+    height:100vh;
+    background-color:#FAEBD7;
+    float:left;
+    border-right:4px solid gray;
+    overflow:scroll;
+    
+  }
+  nav h1{
+    font-size:32px;
+    font-weight:100;
+  }
+  #main-doc h1{
+    margin-top:15px;
+    padding-left:35px;
+  }
+  hr.linestyle{
+    margin:10px 0;
+    border:1px solid #404040;
+  }
+  #navbar h4{
+    margin-left:30px;
+    font-size:20px;
+    font-weight:100;
+    
+  }
+  .nav-link {
+    text-decoration:none;
+    color:#404040;
+    
+  }
+  .right{
+    width:75%;
+    height:100vh;
+    float:left;
+    background-color:#FAEBD7;  
+    overflow:scroll;
+  }
+  .main-section h2{
+    margin:20px;
+    font-size:30px;
+    font-weight:100;
+  } 
+  .main-section p{
+    margin-left:35px;
+    font-size:19px;
+    font-weight:100;
+    color:#404040;
+    margin-bottom:10px;
+  }
+  .main-section ul{
+    margin-left:100px;
+    font-size:19px;
+    font-weight:100;
+    color:#404040;
+  }
+  .codeex{
+    width:80%;
+    height:auto;
+    background-color:#B0B0B0;
+    margin:5px auto;
+    border-radius:6px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
